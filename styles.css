@@ -1,0 +1,22 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  color: #fff;
+  background-color: black;
+}
+
+main {
+  display: grid;
+  place-items: center;
+  position: relative;
+  min-height: 100vh;
+}
+
+#eyes,
+#eyes img {
+  position: absolute;
+}
